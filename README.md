@@ -17,6 +17,7 @@ Before proceeding further, please install the modules mentioned in package.json 
 Usage:
 1. Use 'npm run start <search_string> <page_number>' command on the terminal.
 2. It will compile the typescript code first and then execute the 'fetchUrls' function with the <search_string> and <page_number> parameters.
+3. To check the functionality on MOCK DATA, just uncomment line numbers 28 and 35. After that execute the same command 'npm run start <search_string> <page_number>'. It will work on the basis of mock data provided in mock.ts
 
 Result:
 1. If Api call succeeds, it will print the list of relevant URLs.
