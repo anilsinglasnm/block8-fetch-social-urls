@@ -1,0 +1,28 @@
+{
+  "name": "block8-fetch-social-urls",
+  "version": "1.0.0",
+  "description": "Fetch all the relevant social urls from a single url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node -e \"require('./dist/index.js').fetchUrls()\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilsinglasnm/block8-fetch-social-urls.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilsinglasnm/block8-fetch-social-urls/issues"
+  },
+  "homepage": "https://github.com/anilsinglasnm/block8-fetch-social-urls#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.0",
+    "node-fetch": "^2.6.0"
+  }
+}
